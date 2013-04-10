@@ -1,0 +1,86 @@
+/* 
+
+Project Name: Band Site
+Client: Magic 
+Author: Sarah Doran
+Developed @ General Assembly in NYC
+
+*/
+
+body {
+	/* set up a background image */
+	background-image:url(../images/stressed_linen_@2X.png);	
+	/* the follow is the code to have the image display as a full page */
+	background-repeat:repeat;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#sitecontainer{
+	width: 960px;
+	margin:10px auto;
+
+}
+
+.nav li{
+    display:inline;
+    border-width:1px;
+    list-style:none;
+    margin: 10px auto;
+    padding:45px;
+    text-align:center;
+}
+
+.nav{
+text-align: center;
+}
+
+a:link{
+    font-family:helvetica thin, sans-serif;
+    font-size:0.938em;
+    color: #551a8b;
+    text-decoration:none;
+}
+a:hover{
+    font-family:helvetica thin, sans-serif;
+    font-size:0.938em;
+    text-shadow:1px 1px 0 #696969;
+    text-decoration:none;
+}
+
+#footer {
+	font-family:helvetica thin, sans-serif;
+    color: #000;
+	padding: 15px;
+	text-align: center;
+}
+
+
+h1{
+	font-family:helvetica, sans-serif;
+	color: #696969;
+	font-size: 2em;
+	margin: 25px auto;
+	padding: 5px;
+   	text-align:center;
+}
+p{
+	font-family:helvetica, sans-serif;
+	color: #696969;
+	font-size: 0.813em;
+	padding: 10px;
+   	text-align:left;	
+}
+
+iframe {
+   display: block;
+   width: 800px;
+   height: 400px;
+   margin: 0 auto;
+   border: 0;
+   padding: 25px;
+}
+
+
